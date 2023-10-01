@@ -1,4 +1,3 @@
-import java.lang.*;
 class DifferentNumber{
 	public static void main(String args[]){
 		byte b1=10;

@@ -1,5 +1,3 @@
-import java.lang.*;
-import java.util.*;
 class Test{
 	public void my_method(int num1,int num2){
 		int result;

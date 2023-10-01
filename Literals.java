@@ -7,7 +7,7 @@ public class Literals {
 //        float b2=10.1;      get error
         double b3=10.1;
         char b4='A';
-        String b5="Harry";
+        String b5="Umar";
         boolean b6=true;
         System.out.println(b1);
         System.out.println(b2);
