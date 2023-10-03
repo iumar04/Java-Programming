@@ -12,11 +12,11 @@ public class CalculateCGPA {
             marks=sc.nextInt();
             sum=sum+marks;
         }
-        int a=0;
+        int g_total=0;
         for (int j=1; j<=sub;j++){
-            a=j*100;
+            g_total=j*100;
         }
-        per = (sum /a ) *100;
+        per = (sum /g_total ) *100;
         cgpa = (per / 9.5);
         System.out.println("Sum of Marks: "+sum);
         System.out.println("Percentage of Marks: "+per);
