@@ -1,11 +1,14 @@
-class Test{
-	public void my_method(int num1,int num2){
-		int result;
-		result=num2/num1;
-		System.out.println("Result of Division"+result);
-	}
-	public static void main(String args[]){
-		Test app=new Test();
-		app.my_method(0,10);
-	}
+public class Test3 {
+    public static void main(String[] arg){
+        int num[]={2,9,1,4,25,50};
+        int s=4,found = 0;
+        for(int c=0;c< num.length;c++){
+            if (num[c]==s) {
+                found = num[c];
+                break;
+            }
+                
+        }
+		System.out.println("Data is Found "+found);
+    }
 }
