@@ -5,7 +5,7 @@ public class Factorial {
         int n;
         long fact=1;
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the Number (out of 20): ");
+        System.out.print("Enter the Number (out of 20): ");
         n=sc.nextInt();
         if (n==0){
             System.out.println("Factorial of the Number: 1");
@@ -19,4 +19,3 @@ public class Factorial {
         }
     }
 }
-

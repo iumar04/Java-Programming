@@ -5,7 +5,7 @@ public class SumofNo {
 	
 		Scanner s=new Scanner(System.in);
 		int a,b,c;
-		System.out.println("Enter two No.:");
+		System.out.print("Enter two No.:");
 		a=s.nextInt();
 		b=s.nextInt();
 		c=a+b;

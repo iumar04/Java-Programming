@@ -6,7 +6,7 @@ class Name {
 
 		String name;
 		Scanner s=new Scanner(System.in);
-		System.out.println("Enter your name");
+		System.out.print("Enter your name: ");
 		name=s.nextLine();
 		System.out.println("Welcome Mr. "+name);
 	}		
